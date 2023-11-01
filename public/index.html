@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+</head>
+<body class="font-poppins">
+  <main class="min-h-screen grid pl-8 pr-8 pt-16 pb-16">
+    <section class="grid place-content-center sm:gap-8 gap-20">
+      <header class="text-center sm:block grid gap-4">
+        <h1 class="grid gap-2 text-very_dark_blue">
+          <span class="sm:text-3xl text-2xl font-light">Reliable, efficient delivery</span>
+          <span class="sm:text-3xl text-2xl font-bold">Powered by Technology</span>
+        </h1>
+        <p class="sm:whitespace-pre text-grayish_blue">
+          Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful
+        </p>
+      </header>
+
+      <div class="w-full h-full min-h-[550px] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:items-center place-items-center gap-8">
+        <div class="h-[250px] max-w-[350px] lg:justify-self-end shadow-xl grid items-center p-6 border-t-4 border-cyan rounded-md lg:self-auto self-start lg:row-span-full row-span-1">
+          <div class="grid gap-3">
+            <p class="text-xl font-bold text-very_dark_blue">Supervisor</p>
+            <p class="text-grayish_blue text-sm leading-6">Monitors activity to identify project roadblocks</p>
+          </div>
+          <img class="justify-self-end" src="images/icon-supervisor.svg" alt="magnifying-glass-icon">
+        </div>
+        <div class="sm:flex grid lg:grid lg:col-start-2 lg:col-span-1 sm:col-span-2 col-span-full gap-8 lg:row-start-auto sm:row-start-2">
+          <div class="h-[250px] max-w-[350px] shadow-xl grid items-center p-6 border-t-4 rounded-md border-red">
+            <div class="grid gap-3">
+              <p class="text-xl font-bold text-very_dark_blue">Team Builder</p>
+              <p class="text-grayish_blue text-sm leading-6">Scans our talent network to create the optimal team for your project</p>
+            </div>
+            <img class="justify-self-end" src="images/icon-team-builder.svg" alt="team-builder-icon">
+          </div>
+          <div class="h-[250px] max-w-[350px] shadow-xl grid items-center p-6 border-t-4 rounded-md border-orange">
+            <div class="grid gap-3">
+              <p class="text-xl font-bold text-very_dark_blue">Karma</p>
+              <p class="text-grayish_blue text-sm leading-6">Regularly evaluates our talent to ensure quality</p>
+            </div>
+            <img class="justify-self-end" src="images/icon-karma.svg" alt="light-bulb-icon">
+          </div>        </div>
+        <div class="h-[250px] max-w-[350px] shadow-xl grid items-center p-6 border-t-4 rounded-md border-blue lg:self-center self-start lg:col-start-auto sm:col-start-2 lg:row-start-auto sm:row-start-1">
+          <div class="grid gap-3">
+            <p class="text-xl font-bold text-very_dark_blue">Calculator</p>
+            <p class="text-grayish_blue text-sm leading-6">Uses data from past projects to provide better delivery estimates</p>
+          </div>
+          <img class="justify-self-end" src="images/icon-calculator.svg" alt="computer-monitor-icon">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
